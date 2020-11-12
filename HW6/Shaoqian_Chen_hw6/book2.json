@@ -1,0 +1,14 @@
+{
+	"Author": {"S":"Coelho"},
+	"Title": {"S":"O Alquimista"},
+	"Published": {"N":"1988"},
+	"OrigLang": {"S":"Portuguese"},
+	"Genre": {"S":"Fantasy"},
+	"Keywords": {"L":
+					[
+						{"S":"egypt"}, 
+						{"S":"baggins"}, 
+						{"S":"treasure"}, 
+						{"S":"alchemist"}
+					]}
+}

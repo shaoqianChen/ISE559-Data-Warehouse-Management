@@ -1,0 +1,14 @@
+{
+	"Author": {"S":"Tolkien"},
+	"Title": {"S":"The Lord of the Rings"},
+	"Published": {"N":"1954"},
+	"OrigLang": {"S":"English"},
+	"Genre": {"S":"Fantasy"},
+	"Keywords": {"L":
+					[
+						{"S":"hobbit"}, 
+						{"S":"baggins"}, 
+						{"S":"ring"}, 
+						{"S":"gandalf"}
+					]}
+}

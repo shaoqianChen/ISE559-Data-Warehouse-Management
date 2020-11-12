@@ -1,0 +1,66 @@
+aws dynamodb create-table --cli-input-json file:///Users/shaoqianchen/Desktop/2020\ Spring/ISE\ 559/HW6/create-table-bestsellers.json
+
+aws dynamodb put-item --table-name Bestsellers --item file://book1.json
+aws dynamodb put-item --table-name Bestsellers --item file://book2.json
+aws dynamodb put-item --table-name Bestsellers --item file://book3.json
+aws dynamodb put-item --table-name Bestsellers --item file://book4.json
+
+
+#Question 1
+
+aws dynamodb query \
+--table-name Bestsellers \
+--key-condition-expression 'Author = :v1' \
+--expression-attribute-values '{":v1": {"S":"Christie"}}'
+
+
+
+#Question 2
+
+aws dynamodb scan \
+--table-name Bestsellers \
+--filter-expression 'begins_with(Title, :v2)' \
+--expression-attribute-values file://query2_attr.json
+
+
+
+
+
+#Question 3
+
+aws dynamodb scan \
+--table-name Bestsellers \
+--filter-expression 'OrigLang <> :v3_1 AND Published > :v3_2' \
+--expression-attribute-values file://query3_attr.json
+
+
+
+#Question 4
+
+aws dynamodb scan \
+--table-name Bestsellers \
+--filter-expression 'contains (Keywords, :v4)' \
+--expression-attribute-values file://query4_attr.json
+
+
+
+
+aws dynamodb scan \
+--table-name Bestsellers \
+--filter-expression 'contains (Keywords, :v4) OR contains (Keywords, :v5)' \
+--expression-attribute-values file://query4_attr.json
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

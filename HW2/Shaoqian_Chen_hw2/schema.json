@@ -1,0 +1,25 @@
+{
+    "fields": [
+        {
+            "name": "userID",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "movieID",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "rating",
+            "type": "integer",
+            "format": "default"
+        },
+        {
+            "name": "timestamp",
+            "type": "integer",
+            "format": "default"
+        }
+    ],
+    "missingValues": "N/A"
+}

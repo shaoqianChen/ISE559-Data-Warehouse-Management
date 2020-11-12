@@ -1,0 +1,14 @@
+{
+	"Author": {"S":"de Saint-Exupery"},
+	"Title": {"S":"Le Petit Prince"},
+	"Published": {"N":"1943"},
+	"OrigLang": {"S":"French"},
+	"Genre": {"S":"Fantasy"},
+	"Keywords": {"L":
+					[
+						{"S":"prince"}, 
+						{"S":"airplane"}, 
+						{"S":"sahara"}, 
+						{"S":"b612"}
+					]}
+}

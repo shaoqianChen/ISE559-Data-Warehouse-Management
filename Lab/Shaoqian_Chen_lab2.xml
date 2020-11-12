@@ -1,0 +1,20 @@
+<record xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/">
+	<dc:title>Educated: A Memoir</dc:title>
+	<dc:creator>Tara Westover</dc:creator>
+	<dc:contributor>Julia Whelan</dc:contributor>
+	<dc:contributor>Patrik Svensson</dc:contributor>
+	<dc:subject>United States</dc:subject>
+	<dc:language xsi:type="dcterms:ISO639-2">English</dc:language>
+	<dc:subject>Memoir</dc:subject>	
+	<dc:publisher>Random House</dc:publisher>
+	<dcterms:dateCreated> 2018-2-18</dcterms:dateCreated>
+	<dc:type>Print (hardcover, paperback), e-book, audiobook</dc:type>
+	<dc:subject>352 pages</dc:subject>
+	<dc:subject>2019 Alex Award</dc:subject>
+	<dc:subject>978-0-399-59050-4 (First edition hardcover)</dc:subject>
+	<dc:subject>270.092 B</dc:subject>
+	<dc:subject>CT3262.I2 W47 2018</dc:subject>
+	<dc:subject>tarawestover.com/book</dc:subject>
+	<dc:description>Educated: A Memoir is a 2018 memoir by American author Tara Westover, published by Random House on February 18, 2018. The memoir concerns Westover overcoming her survivalist Mormon family to go to college. It details her journey from her isolated life in the mountains of Idaho to getting into the PhD program at Cambridge University. Westover describes her journey of having no formal education to suddenly being in college at the age of seventeen; as well as her struggles to fit into the world her radical survivalist father created for her and the world beyond the mountains.As of April 2020, it has spent 110 weeks on The New York Times Non-Fiction Best Seller list.[2] It won a 2019 Alex Award and was shortlisted for the 2019 PEN/Jean Stein Book Award.[3]</dc:description>
+</record>

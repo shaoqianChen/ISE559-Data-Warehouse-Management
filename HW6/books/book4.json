@@ -1,0 +1,14 @@
+{
+	"Author": {"S":"Christie"},
+	"Title": {"S":"And Then There Were None"},
+	"Published": {"N":"1939"},
+	"OrigLang": {"S":"English"},
+	"Genre": {"S":"Mystery"},
+	"Keywords": {"L":
+					[
+						{"S":"devon"}, 
+						{"S":"owen"}, 
+						{"S":"murder"}, 
+						{"S":"gun"}
+					]}
+}
